@@ -1,0 +1,32 @@
+<?php
+$title = "Accueil";
+include("includes/constants.php");
+include("partials/_header.php");
+?>
+<div class="main-content">
+    <div class="">
+        <div class="row">
+            <div class="col-md-8 col-lg-offset-2">
+                <?php
+                require("/partials/_slider.php");
+                ?>
+            </div>   
+        </div>
+        <div class="row">
+            <div class="fond-grise">
+                <?php 
+               include("/partials/_contenue.php");
+                ?>
+            </div>
+            
+        </div>
+        <div class="row">
+            <?php 
+               include("/partials/_actualites.php");
+            ?>
+        </div>
+    </div><!-- /.container -->
+</div>
+<?php
+include("partials/_footer.php");
+?>

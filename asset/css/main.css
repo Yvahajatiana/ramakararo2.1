@@ -1,0 +1,23 @@
+body
+{
+    padding-top: 20px;
+}
+.margebas
+{
+    margin-bottom: 20px;
+}
+.fond-grise
+{
+    background-color: #f7f7f7;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border:1px solid #ddd;
+}
+.pied
+{
+    margin-top: 40px;
+    border:1px solid #ddd;
+    background-color: #333;
+    height: 200px;
+    color: #f7f7f7;
+}
